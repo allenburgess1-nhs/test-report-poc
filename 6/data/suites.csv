@@ -1,0 +1,7 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Fri Jun 02 16:15:15 GMT 2023","Fri Jun 02 16:15:15 GMT 2023","0","tests","test_numbers","","","","test_should_pass_multiply",""
+"passed","Fri Jun 02 16:15:15 GMT 2023","Fri Jun 02 16:15:15 GMT 2023","0","tests","test_numbers","","","","test_should_pass_minus",""
+"skipped","Fri Jun 02 16:15:15 GMT 2023","Fri Jun 02 16:15:15 GMT 2023","0","tests","test_str","","","","test_should_fail_str",""
+"skipped","Fri Jun 02 16:15:15 GMT 2023","Fri Jun 02 16:15:15 GMT 2023","0","tests","test_numbers","","","","test_should_fail_add",""
+"passed","Fri Jun 02 16:15:15 GMT 2023","Fri Jun 02 16:15:15 GMT 2023","0","tests","test_numbers","","","","test_should_pass_add",""
+"passed","Fri Jun 02 16:15:15 GMT 2023","Fri Jun 02 16:15:15 GMT 2023","0","tests","test_str","","","","test_should_pass_str",""
