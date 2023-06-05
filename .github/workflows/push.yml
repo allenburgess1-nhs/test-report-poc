@@ -19,13 +19,26 @@ jobs:
         pip install pytest
         pip install allure-pytest
 
-
     - name: Run PyTests
       run: |
-        mkdir report
-        pytest --alluredir=allure-results
+        mkdir reports
+        pytest --alluredir=reports/allure-results
       continue-on-error: true
+    - name: Upload test results
+      uses: actions/upload-artifact@v3
+      with:
+        name: pytest-results
+        path: reports
 
+  report:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/download-artifact@v3
+      with:
+        name: pytest-results
+
+    - name: Display structure of downloaded files
+      run: ls -R
 
     - name: Get Allure history
       uses: actions/checkout@v3
@@ -37,10 +50,8 @@ jobs:
     - name: Allure Report
       uses: simple-elf/allure-report-action@v1.6
       if: always()
-      #id: allure-report
       with:
-        allure_results: allure-results
-        allure_history: allure-history
+        allure_results: reports/allure-results
         keep-reports: '20'
     - name: Deploy report to Github Pages
       if: always()
