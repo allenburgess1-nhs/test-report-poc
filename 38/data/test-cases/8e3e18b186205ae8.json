@@ -1,0 +1,73 @@
+{
+  "uid" : "8e3e18b186205ae8",
+  "name" : "test_should_pass_add",
+  "fullName" : "tests.test_numbers#test_should_pass_add",
+  "historyId" : "ebe392dfb00c285ced0baa0a7e003b13",
+  "time" : {
+    "start" : 1685982706882,
+    "stop" : 1685982706882,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_numbers"
+  }, {
+    "name" : "host",
+    "value" : "fv-az617-204"
+  }, {
+    "name" : "thread",
+    "value" : "1713-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_numbers"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "daff9ceb6bc8b944",
+        "reportUrl" : "https://allenburgess1-nhs.github.io/test-report-poc/37//#testresult/daff9ceb6bc8b944",
+        "status" : "passed",
+        "time" : {
+          "start" : 1685981864638,
+          "stop" : 1685981864638,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "8e3e18b186205ae8.json",
+  "parameterValues" : [ ]
+}

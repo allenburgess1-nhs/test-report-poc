@@ -1,0 +1,79 @@
+{
+  "uid" : "d0023bd4e9d0aabd",
+  "name" : "test_should_fail_str",
+  "fullName" : "tests.test_str#test_should_fail_str",
+  "historyId" : "59b10622131e05ca31415ed8b6206858",
+  "time" : {
+    "start" : 1685982706890,
+    "stop" : 1685982706890,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "statusMessage" : "Skipped: skip",
+  "statusTrace" : "('/home/runner/work/test-report-poc/test-report-poc/tests/test_str.py', 6, 'Skipped: skip')",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@pytest.mark.skip(reason='skip')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_str"
+  }, {
+    "name" : "host",
+    "value" : "fv-az617-204"
+  }, {
+    "name" : "thread",
+    "value" : "1713-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_str"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 2,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "37a4607759895cfa",
+        "reportUrl" : "https://allenburgess1-nhs.github.io/test-report-poc/37//#testresult/37a4607759895cfa",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: skip",
+        "time" : {
+          "start" : 1685981864645,
+          "stop" : 1685981864645,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ "@pytest.mark.skip(reason='skip')" ]
+  },
+  "source" : "d0023bd4e9d0aabd.json",
+  "parameterValues" : [ ]
+}
