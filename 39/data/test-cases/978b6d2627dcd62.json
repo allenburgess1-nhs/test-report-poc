@@ -1,0 +1,82 @@
+{
+  "uid" : "978b6d2627dcd62",
+  "name" : "test_should_pass_add",
+  "fullName" : "tests.test_numbers#test_should_pass_add",
+  "historyId" : "ebe392dfb00c285ced0baa0a7e003b13",
+  "time" : {
+    "start" : 1685982794400,
+    "stop" : 1685982794400,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_numbers"
+  }, {
+    "name" : "host",
+    "value" : "fv-az436-955"
+  }, {
+    "name" : "thread",
+    "value" : "1700-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_numbers"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "8e3e18b186205ae8",
+        "reportUrl" : "https://allenburgess1-nhs.github.io/test-report-poc/38//#testresult/8e3e18b186205ae8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1685982706882,
+          "stop" : 1685982706882,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "daff9ceb6bc8b944",
+        "reportUrl" : "https://allenburgess1-nhs.github.io/test-report-poc/37//#testresult/daff9ceb6bc8b944",
+        "status" : "passed",
+        "time" : {
+          "start" : 1685981864638,
+          "stop" : 1685981864638,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "978b6d2627dcd62.json",
+  "parameterValues" : [ ]
+}
