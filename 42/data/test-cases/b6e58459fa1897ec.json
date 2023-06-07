@@ -1,0 +1,109 @@
+{
+  "uid" : "b6e58459fa1897ec",
+  "name" : "test_should_pass_add",
+  "fullName" : "tests.test_numbers#test_should_pass_add",
+  "historyId" : "ebe392dfb00c285ced0baa0a7e003b13",
+  "time" : {
+    "start" : 1686138936886,
+    "stop" : 1686138936886,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_numbers"
+  }, {
+    "name" : "host",
+    "value" : "fv-az162-147"
+  }, {
+    "name" : "thread",
+    "value" : "1677-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_numbers"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 6,
+        "unknown" : 0,
+        "total" : 6
+      },
+      "items" : [ {
+        "uid" : "7a71944e7b6e0897",
+        "reportUrl" : "https://allenburgess1-nhs.github.io/test-report-poc/41//#testresult/7a71944e7b6e0897",
+        "status" : "passed",
+        "time" : {
+          "start" : 1686138779522,
+          "stop" : 1686138779523,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "2e38356dd4f7aa44",
+        "reportUrl" : "https://allenburgess1-nhs.github.io/test-report-poc/40//#testresult/2e38356dd4f7aa44",
+        "status" : "passed",
+        "time" : {
+          "start" : 1685984787410,
+          "stop" : 1685984787410,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "978b6d2627dcd62",
+        "reportUrl" : "https://allenburgess1-nhs.github.io/test-report-poc/39//#testresult/978b6d2627dcd62",
+        "status" : "passed",
+        "time" : {
+          "start" : 1685982794400,
+          "stop" : 1685982794400,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "8e3e18b186205ae8",
+        "reportUrl" : "https://allenburgess1-nhs.github.io/test-report-poc/38//#testresult/8e3e18b186205ae8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1685982706882,
+          "stop" : 1685982706882,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "daff9ceb6bc8b944",
+        "reportUrl" : "https://allenburgess1-nhs.github.io/test-report-poc/37//#testresult/daff9ceb6bc8b944",
+        "status" : "passed",
+        "time" : {
+          "start" : 1685981864638,
+          "stop" : 1685981864638,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "b6e58459fa1897ec.json",
+  "parameterValues" : [ ]
+}
