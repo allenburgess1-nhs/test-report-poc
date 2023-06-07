@@ -1,0 +1,56 @@
+{
+  "uid" : "3f47e2b59790ccd1",
+  "name" : "test_should_fail_add",
+  "fullName" : "tests.test_numbers#test_should_fail_add",
+  "historyId" : "ec205d1787257ab48a2854b0cee58897",
+  "time" : {
+    "start" : 1686138779184,
+    "stop" : 1686138779184,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "statusMessage" : "Skipped: skip",
+  "statusTrace" : "('/home/runner/work/test-report-poc/test-report-poc/tests/test_numbers.py', 12, 'Skipped: skip')",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@pytest.mark.skip(reason='skip')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_numbers"
+  }, {
+    "name" : "host",
+    "value" : "fv-az797-291"
+  }, {
+    "name" : "thread",
+    "value" : "1735-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_numbers"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.skip(reason='skip')" ]
+  },
+  "source" : "3f47e2b59790ccd1.json",
+  "parameterValues" : [ ]
+}
