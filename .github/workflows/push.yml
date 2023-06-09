@@ -63,6 +63,11 @@ jobs:
         publish_branch: gh-pages
         publish_dir: allure-history
 
+  publish_report_link:
+    needs: [report]
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
     - name: Add summary title
       run: echo '#### TEST REPORT' >> "$GITHUB_STEP_SUMNMARY"
     - name: Publish report link
