@@ -1,0 +1,61 @@
+[ {
+  "uid" : "d35b2bd4677b44a7",
+  "name" : "test_should_fail_add",
+  "time" : {
+    "start" : 1686315701336,
+    "stop" : 1686315701336,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "e5228d1d5df88b9a",
+  "name" : "test_should_pass_minus",
+  "time" : {
+    "start" : 1686315701334,
+    "stop" : 1686315701334,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3db1ae7f6b033637",
+  "name" : "test_should_pass_add",
+  "time" : {
+    "start" : 1686315701332,
+    "stop" : 1686315701332,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2fb3786fb7dfc72b",
+  "name" : "test_should_fail_str",
+  "time" : {
+    "start" : 1686315701340,
+    "stop" : 1686315701340,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "b62baf56990b73b5",
+  "name" : "test_should_pass_multiply",
+  "time" : {
+    "start" : 1686315701335,
+    "stop" : 1686315701335,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "229c63c60ae3a01",
+  "name" : "test_should_pass_str",
+  "time" : {
+    "start" : 1686315701339,
+    "stop" : 1686315701339,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
