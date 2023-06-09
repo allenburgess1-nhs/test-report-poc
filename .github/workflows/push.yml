@@ -64,6 +64,6 @@ jobs:
         publish_dir: allure-history
 
     - name: Add summary title
-      run: echo '#### TEST REPORT' >> $GITHUB_STEP_SUMNMARY
+      run: echo '#### TEST REPORT' >> "$GITHUB_STEP_SUMNMARY"
     - name: Publish report link
-      run: echo 'Allure report available at - https://allenburgess1-nhs.github.io/test-report-poc/${{github.run_number}}' >> $GITHUB_STEP_SUMMARY
+      run: echo 'Allure report available at - https://allenburgess1-nhs.github.io/test-report-poc/${{github.run_number}}' >> "$GITHUB_STEP_SUMMARY"
