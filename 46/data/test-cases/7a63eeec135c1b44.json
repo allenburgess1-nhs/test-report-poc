@@ -1,0 +1,145 @@
+{
+  "uid" : "7a63eeec135c1b44",
+  "name" : "test_should_pass_multiply",
+  "fullName" : "tests.test_numbers#test_should_pass_multiply",
+  "historyId" : "806606f359a5a632aa9ff1a3957d812e",
+  "time" : {
+    "start" : 1698843212681,
+    "stop" : 1698843212681,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_numbers"
+  }, {
+    "name" : "host",
+    "value" : "fv-az491-138"
+  }, {
+    "name" : "thread",
+    "value" : "1911-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_numbers"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 10,
+        "unknown" : 0,
+        "total" : 10
+      },
+      "items" : [ {
+        "uid" : "b62baf56990b73b5",
+        "reportUrl" : "https://allenburgess1-nhs.github.io/test-report-poc/45//#testresult/b62baf56990b73b5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1686315701335,
+          "stop" : 1686315701335,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "9315e034b2b0b75e",
+        "reportUrl" : "https://allenburgess1-nhs.github.io/test-report-poc/44//#testresult/9315e034b2b0b75e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1686315379598,
+          "stop" : 1686315379598,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "aab5a226ea03dbec",
+        "reportUrl" : "https://allenburgess1-nhs.github.io/test-report-poc/43//#testresult/aab5a226ea03dbec",
+        "status" : "passed",
+        "time" : {
+          "start" : 1686314889856,
+          "stop" : 1686314889856,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "364305b9f026d7dc",
+        "reportUrl" : "https://allenburgess1-nhs.github.io/test-report-poc/42//#testresult/364305b9f026d7dc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1686138936889,
+          "stop" : 1686138936889,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "ed954d76c7ca75cc",
+        "reportUrl" : "https://allenburgess1-nhs.github.io/test-report-poc/41//#testresult/ed954d76c7ca75cc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1686138779526,
+          "stop" : 1686138779526,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "783aee9c6f14c9f0",
+        "reportUrl" : "https://allenburgess1-nhs.github.io/test-report-poc/40//#testresult/783aee9c6f14c9f0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1685984787413,
+          "stop" : 1685984787413,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "6b6a0ffb5426ce2e",
+        "reportUrl" : "https://allenburgess1-nhs.github.io/test-report-poc/39//#testresult/6b6a0ffb5426ce2e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1685982794403,
+          "stop" : 1685982794403,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "fb1d62d9eb23fa76",
+        "reportUrl" : "https://allenburgess1-nhs.github.io/test-report-poc/38//#testresult/fb1d62d9eb23fa76",
+        "status" : "passed",
+        "time" : {
+          "start" : 1685982706885,
+          "stop" : 1685982706885,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "383bff9e3843a69d",
+        "reportUrl" : "https://allenburgess1-nhs.github.io/test-report-poc/37//#testresult/383bff9e3843a69d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1685981864641,
+          "stop" : 1685981864641,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "7a63eeec135c1b44.json",
+  "parameterValues" : [ ]
+}

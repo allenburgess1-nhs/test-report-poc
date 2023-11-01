@@ -1,0 +1,10 @@
+[ {
+  "name" : "GitHub Actions",
+  "type" : "github",
+  "url" : "https://allenburgess1-nhs.github.io/test-report-poc",
+  "buildOrder" : 46,
+  "buildName" : "GitHub Actions Run #6719899463",
+  "buildUrl" : "https://github.com/allenburgess1-nhs/test-report-poc/actions/runs/6719899463",
+  "reportName" : "Allure Report with history",
+  "reportUrl" : "https://allenburgess1-nhs.github.io/test-report-poc/46/"
+} ]
