@@ -62,3 +62,36 @@ jobs:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_branch: gh-pages
         publish_dir: allure-history
+
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout
+        uses: actions/checkout@v3
+
+      - name: setup python
+        uses: actions/setup-python@v4
+        with:
+          python-version-file: 'pyproject.toml'
+
+      - name: install poetry
+        uses: snok/install-poetry@v1
+        with:
+          version: 1.6.1
+          virtualenvs-create: true
+          virtualenvs-in-project: true
+
+      - name: add poetry plugins
+        shell: bash
+        run: |
+          poetry self add "poetry-dynamic-versioning[plugin]"
+
+      - name: create release
+        id: create_release
+        uses: actions/create-release@v1
+        continue-on-error: false
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: "v0.0.1"
+          release_name: "v.0.0.1"
