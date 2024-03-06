@@ -1,17 +1,14 @@
 [tool.poetry]
-name = "package-b"
+name = "package-a"
 version = "0.1.0"
 description = ""
 authors = ["Allen <allen.burgess1@nhs.net>"]
 readme = "README.md"
-packages = [
-    { include = "package-b" }
-]
 
 [tool.poetry.dependencies]
 python = ">=3.11,<4.0"
 pytest = "^8.0.2"
-test-report-poc = { git = "git@github.com:allenburgess1-nhs/test-report-poc.git", tag="v0.0.1" }
+mesh-common = { git = "git@github.com:NHSDigital/mesh-common.git", tag="v0.4.5" }
 
 [build-system]
 requires = ["poetry-core"]
